@@ -336,12 +336,6 @@
         // Add mouse move event listener for dragging
         document.addEventListener('mousemove', handleMouseMove);
 
-
-        // Function to remove mouse move listener from the draggable element
-        function removeMouseMoveListener(element) {
-            element.removeEventListener('mousemove', handleMouseMoveOverElement);
-        }
-
         // Function to handle selection of an element   
         function handleElementSelection(element) {
             // Remove cursor change listener from all elements
