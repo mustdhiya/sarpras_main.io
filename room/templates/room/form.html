@@ -1,0 +1,8 @@
+<!-- File: form_ruangan.html -->
+
+<h2>Form Ruang Percobaan</h2>
+<form id="formRuang" action="#" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Submit">
+</form>
